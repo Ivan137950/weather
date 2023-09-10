@@ -1,6 +1,6 @@
 import os
 
-data_dir = '/Users/limon/Downloads/jena_climate_2009_2016.csv'
+data_dir = '/Users/limon/OneDrive/Рабочий стол/GitHubProg/weather/jena_climate_2009_2016.csv'
 fname = os.path.join(data_dir, 'jena_climate_2009_2016.csv')
 
 with open(fname,'r', encoding='utf-8') as f:
